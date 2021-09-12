@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--primary-color: #fbbf24;
+}
+
+body {
+	font-family: "Caveat", cursive;
+}
+
+nav {
+	text-align: center;
+	padding: 1rem;
+	background-color: var(--primary-color);
+}
+
+.nav-heading {
+	font-size: 40px;
+	font-weight: 600;
+}
+
+main {
+	text-align: center;
+	max-width: 600px;
+	margin: auto;
+}
+
+#translate-input,
+#translate-output {
+	height: 20vh;
+	width: 100%;
+	font-size: 24px;
+	font-family: inherit;
+	letter-spacing: 1.5px;
+	display: block;
+	margin-top: 3rem;
+}
+
+#translate-input::placeholder {
+	font-size: 24px;
+	font-family: "Caveat", cursive;
+}
+
+#translate-input:focus {
+	outline: none;
+	border: 2px solid var(--primary-color);
+}
+
+#translate-output {
+	margin-top: 0;
+}
+
+#translate-btn {
+	font-size: 24px;
+	font-weight: 600;
+	font-family: inherit;
+	padding: 0.8rem 1.6rem;
+	background-color: var(--primary-color);
+	border: none;
+	outline: none;
+	margin-top: 3rem;
+	cursor: pointer;
+}
+
+main div {
+	font-size: 24px;
+	margin-top: 3rem;
+}
+
+footer {
+	height: 20vh;
+	text-align: center;
+	background-color: var(--primary-color);
+	margin-top: 4rem;
+	padding: 1rem;
+}
+
+footer h1 {
+	font-size: 40px;
+	font-weight: 600;
+}
+
+footer p {
+	font-size: 21px;
+	max-width: 600px;
+	margin: auto;
+}
